@@ -1,0 +1,12 @@
+C:\Users\ASUS\Desktop\Jason\TCP通信 - 异步Socket\TCP通信 - 异步Socket\bin\Debug\TCP通信 - 异步Socket.exe.config
+C:\Users\ASUS\Desktop\Jason\TCP通信 - 异步Socket\TCP通信 - 异步Socket\bin\Debug\TCP通信 - 异步Socket.exe
+C:\Users\ASUS\Desktop\Jason\TCP通信 - 异步Socket\TCP通信 - 异步Socket\bin\Debug\TCP通信 - 异步Socket.pdb
+C:\Users\ASUS\Desktop\Jason\TCP通信 - 异步Socket\TCP通信 - 异步Socket\bin\Debug\TCP通信 - 异步Socket.xml
+C:\Users\ASUS\Desktop\Jason\TCP通信 - 异步Socket\TCP通信 - 异步Socket\obj\x86\Debug\TCP通信___异步Socket.Form1.resources
+C:\Users\ASUS\Desktop\Jason\TCP通信 - 异步Socket\TCP通信 - 异步Socket\obj\x86\Debug\TCP通信___异步Socket.Resources.resources
+C:\Users\ASUS\Desktop\Jason\TCP通信 - 异步Socket\TCP通信 - 异步Socket\obj\x86\Debug\TCP通信 - 异步Socket.vbproj.GenerateResource.Cache
+C:\Users\ASUS\Desktop\Jason\TCP通信 - 异步Socket\TCP通信 - 异步Socket\obj\x86\Debug\TCP通信 - 异步Socket.exe
+C:\Users\ASUS\Desktop\Jason\TCP通信 - 异步Socket\TCP通信 - 异步Socket\obj\x86\Debug\TCP通信 - 异步Socket.xml
+C:\Users\ASUS\Desktop\Jason\TCP通信 - 异步Socket\TCP通信 - 异步Socket\obj\x86\Debug\TCP通信 - 异步Socket.pdb
+C:\Users\ASUS\Desktop\Jason\TCP通信 - 异步Socket\TCP通信 - 异步Socket\obj\x86\Debug\TCP通信___异步Socket.Form2.resources
+C:\Users\ASUS\Desktop\Jason\TCP通信 - 异步Socket\TCP通信 - 异步Socket\bin\Debug\TCP通信 - Socket.exe.config
