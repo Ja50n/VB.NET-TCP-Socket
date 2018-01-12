@@ -101,6 +101,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="TCPClient.vb" />
+    <Compile Include="TCPServer.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form_Server.resx">

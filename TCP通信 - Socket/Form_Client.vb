@@ -49,20 +49,25 @@ Public Class Form_Client
             Button_Control.BackColor = Color.Red
 
         ElseIf Button_Control.Text = "停止" Then
-            Boolean_Client = False
-            Thread.Sleep(10)
-            '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-            '关闭Socket服务
-            tcpClient.Close()
-            tcpClient = Nothing
+            Try
+                Boolean_Client = False
+                Thread.Sleep(10)
+                '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+                '关闭Socket服务
+                tcpClient.Close()
+                tcpClient = Nothing
 
-            '关闭监听线程
-            thThreadListen.Abort()
-            '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-            Button_Control.Text = "启动"
-            Button_Control.BackColor = Color.Green
+                '关闭监听线程
+                thThreadListen.Abort()
+                '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+                Button_Control.Text = "启动"
+                Button_Control.BackColor = Color.Green
 
-            ConnectStatus("未启动服务", Color.Red)
+                ConnectStatus("未启动服务", Color.Red)
+            Catch ex As Exception
+
+            End Try
+           
         End If
     End Sub
 

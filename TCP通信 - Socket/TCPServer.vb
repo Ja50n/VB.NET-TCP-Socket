@@ -190,6 +190,7 @@ Public Class TCPServer
             CloseClient(clientInfoT.Address.ToString, clientInfoT.Port.ToString)
         Next
     End Sub
+
 #Region "接收客户端的数据"
 
     ''' <summary>   
@@ -230,7 +231,6 @@ Public Class TCPServer
         End Try
     End Sub
 #End Region
-
 
 #Region "向客户端发送数据"
 

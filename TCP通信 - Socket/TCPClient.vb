@@ -3,6 +3,7 @@ Imports System.Net.Sockets
 Imports System.Threading
 
 Public Class TCPClient
+
 #Region "私有成员"
     Private _LocationClientSocket As Socket '本地侦听服务   
     Private _LocalPort As String '本地端口   
