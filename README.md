@@ -1,2 +1,4 @@
-# VB.NET-TCP-Socket
-VB.NET，TCP通信，使用Socket方式
+### VB.NET-TCP-Socket
+----
+
+- VB.NET Socket通讯例程

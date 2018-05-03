@@ -1,18 +1,40 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TCP通信 - Socket", "TCP通信 - Socket\TCP通信 - Socket.vbproj", "{67900DFD-89A6-4B9E-82BE-8BAF4B537838}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Socket_Server", "Socket_Server\Socket_Server.vbproj", "{67900DFD-89A6-4B9E-82BE-8BAF4B537838}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Socket_Client", "Socket_Client\Socket_Client.vbproj", "{E207FE00-0BB4-4B05-8A8D-4E1BC1C56486}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67900DFD-89A6-4B9E-82BE-8BAF4B537838}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{67900DFD-89A6-4B9E-82BE-8BAF4B537838}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{67900DFD-89A6-4B9E-82BE-8BAF4B537838}.Debug|Mixed Platforms.Build.0 = Debug|x86
 		{67900DFD-89A6-4B9E-82BE-8BAF4B537838}.Debug|x86.ActiveCfg = Debug|x86
 		{67900DFD-89A6-4B9E-82BE-8BAF4B537838}.Debug|x86.Build.0 = Debug|x86
+		{67900DFD-89A6-4B9E-82BE-8BAF4B537838}.Release|Any CPU.ActiveCfg = Release|x86
+		{67900DFD-89A6-4B9E-82BE-8BAF4B537838}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{67900DFD-89A6-4B9E-82BE-8BAF4B537838}.Release|Mixed Platforms.Build.0 = Release|x86
 		{67900DFD-89A6-4B9E-82BE-8BAF4B537838}.Release|x86.ActiveCfg = Release|x86
 		{67900DFD-89A6-4B9E-82BE-8BAF4B537838}.Release|x86.Build.0 = Release|x86
+		{E207FE00-0BB4-4B05-8A8D-4E1BC1C56486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E207FE00-0BB4-4B05-8A8D-4E1BC1C56486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E207FE00-0BB4-4B05-8A8D-4E1BC1C56486}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E207FE00-0BB4-4B05-8A8D-4E1BC1C56486}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E207FE00-0BB4-4B05-8A8D-4E1BC1C56486}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E207FE00-0BB4-4B05-8A8D-4E1BC1C56486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E207FE00-0BB4-4B05-8A8D-4E1BC1C56486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E207FE00-0BB4-4B05-8A8D-4E1BC1C56486}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E207FE00-0BB4-4B05-8A8D-4E1BC1C56486}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E207FE00-0BB4-4B05-8A8D-4E1BC1C56486}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

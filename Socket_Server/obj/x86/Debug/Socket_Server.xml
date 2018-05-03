@@ -1,0 +1,144 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Socket_Server
+</name>
+</assembly>
+<members>
+<member name="P:Socket_Server.My.Resources.Resources.ResourceManager">
+	<summary>
+  返回此类使用的缓存的 ResourceManager 实例。
+</summary>
+</member><member name="P:Socket_Server.My.Resources.Resources.Culture">
+	<summary>
+  使用此强类型资源类，为所有资源查找
+  重写当前线程的 CurrentUICulture 属性。
+</summary>
+</member><member name="T:Socket_Server.My.Resources.Resources">
+	<summary>
+  一个强类型的资源类，用于查找本地化的字符串等。
+</summary>
+</member><member name="E:Socket_Server.TCPServer.ClientConnected">
+	<summary>   
+ 客户端联接事件   
+ </summary>
+	<param name="IP">客户端联接IP</param>
+	<param name="Port">客户端联接端口号</param>
+	<remarks></remarks>
+</member><member name="E:Socket_Server.TCPServer.ClientClose">
+	<summary>   
+ 客户端断开事件   
+ </summary>
+	<param name="IP">客户端联接IP</param>
+	<param name="Port">客户端联接端口号</param>
+	<remarks></remarks>
+</member><member name="E:Socket_Server.TCPServer.DataArrived">
+	<summary>   
+ 接收到客户端的数据   
+ </summary>
+	<param name="value">数据</param>
+	<param name="IPAddress">数据来源IP</param>
+	<param name="Port">数据来源端口</param>
+	<remarks></remarks>
+</member><member name="E:Socket_Server.TCPServer.Exception">
+	<summary>   
+ 异常数据   
+ </summary>
+	<param name="ex"></param>
+	<remarks></remarks>
+</member><member name="P:Socket_Server.TCPServer.IsServerStart">
+	<summary>   
+ 侦听服务是否已经启动   
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Socket_Server.TCPServer.#ctor(System.String,System.Int32,System.Int32,System.Int32)">
+	<summary>   
+ 实例　TCPServer   
+ </summary>
+	<param name="Port">侦听客户端联接的端口号</param>
+	<param name="MaxClient">最大可以联接的客户端数量</param>
+	<param name="RecvMax">接收缓冲区大小</param>
+	<param name="RecvSleep">接收线程睡眠时间</param>
+	<remarks></remarks>
+</member><member name="M:Socket_Server.TCPServer.StartServer">
+	<summary>   
+ 开始侦听服务   
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Socket_Server.TCPServer.Close">
+	<summary>   
+ 关闭侦听   
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Socket_Server.TCPServer.ListenClient">
+	<summary>   
+ 客户端侦听线程   
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Socket_Server.TCPServer.GetData_Byte(System.Byte[],System.Int32,System.String,System.String)">
+	<summary>   
+ 接收到客户端的数据-字节数组   
+ </summary>
+	<param name="value">数据内容</param>
+	<param name="Len">字节长度</param>
+	<param name="IPAddress">发送该数据的IP地址</param>
+	<param name="Port">发送该数据的端口号</param>
+	<remarks></remarks>
+</member><member name="M:Socket_Server.TCPServer.GetClientClose(System.String,System.String)">
+	<summary>   
+ 得到客户端断开或失去客户端联连事件   
+ </summary>
+	<param name="IP">客户端联接IP</param>
+	<param name="Port">客户端联接端口号</param>
+	<remarks></remarks>
+</member><member name="M:Socket_Server.TCPServer.SendData(System.Byte[],System.String,System.String)">
+	<summary>   
+ 向客户端发送信息   
+ </summary>
+	<param name="value">发送的内容</param>
+	<param name="IPAddress">IP地址</param>
+	<param name="Port">端口号</param>
+	<returns> Boolean</returns>
+	<remarks></remarks>
+</member><member name="M:Socket_Server.TCPServer.GetClientSocket(System.String,System.String)">
+	<summary>   
+ 得到客户端的Socket联接   
+ </summary>
+	<param name="IPAddress">客户端的IP</param>
+	<param name="Port">客户端的端口号</param>
+	<returns>Socket联接</returns>
+	<remarks></remarks>
+</member><member name="M:Socket_Server.TCPServer.ClientCommunication.#ctor(System.Net.Sockets.Socket,System.Net.Sockets.Socket,Socket_Server.TCPServer)">
+	<summary>   
+ 实例ClientCommunication类   
+ </summary>
+	<param name="ServerSocket"></param>
+	<param name="ClientSocket"></param>
+	<param name="ParentObject"></param>
+	<remarks></remarks>
+</member><member name="M:Socket_Server.TCPServer.ClientCommunication.serverThreadProc">
+	<summary>   
+ 客户端通讯主线程   
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Socket_Server.TCPServer.ClientCommunication.ReceiveCallBack(System.IAsyncResult)">
+	<summary>   
+ socket异步接收回调函数   
+ </summary>
+	<param name="ar"></param>
+	<remarks></remarks>
+</member><member name="T:Socket_Server.TCPServer.ClientCommunication.SocketAndBuffer">
+	<summary>   
+ 异步操作socket缓冲类   
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Socket_Server.TCPServer">
+	<summary>   
+ 侦听客户端联接   
+ </summary>
+</member>
+</members>
+</doc>

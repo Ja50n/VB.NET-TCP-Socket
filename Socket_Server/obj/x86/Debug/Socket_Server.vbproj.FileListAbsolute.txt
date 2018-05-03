@@ -1,0 +1,14 @@
+C:\Users\ASUS\OneDrive\Jason\TCP通信 - Socket - Server+Client\TCP通信 - Socket\obj\x86\Debug\Socket_Server.vbproj.GenerateResource.Cache
+C:\Users\ASUS\OneDrive\Jason\TCP通信 - Socket - Server+Client\TCP通信 - Socket\bin\Debug\Socket_Server.exe.config
+C:\Users\ASUS\OneDrive\Jason\TCP通信 - Socket - Server+Client\TCP通信 - Socket\bin\Debug\Socket_Server.exe
+C:\Users\ASUS\OneDrive\Jason\TCP通信 - Socket - Server+Client\TCP通信 - Socket\bin\Debug\Socket_Server.pdb
+C:\Users\ASUS\OneDrive\Jason\TCP通信 - Socket - Server+Client\TCP通信 - Socket\bin\Debug\Socket_Server.xml
+C:\Users\ASUS\OneDrive\Jason\TCP通信 - Socket - Server+Client\TCP通信 - Socket\obj\x86\Debug\Socket_Server.Form_Server.resources
+C:\Users\ASUS\OneDrive\Jason\TCP通信 - Socket - Server+Client\TCP通信 - Socket\obj\x86\Debug\Socket_Server.Resources.resources
+C:\Users\ASUS\OneDrive\Jason\TCP通信 - Socket - Server+Client\TCP通信 - Socket\obj\x86\Debug\Socket_Server.exe
+C:\Users\ASUS\OneDrive\Jason\TCP通信 - Socket - Server+Client\TCP通信 - Socket\obj\x86\Debug\Socket_Server.xml
+C:\Users\ASUS\OneDrive\Jason\TCP通信 - Socket - Server+Client\TCP通信 - Socket\obj\x86\Debug\Socket_Server.pdb
+C:\Users\ASUS\OneDrive\Jason\TCP通信 - Socket - Server+Client\Socket_Server\bin\Debug\Socket_Server.exe.config
+C:\Users\ASUS\OneDrive\Jason\TCP通信 - Socket - Server+Client\Socket_Server\obj\x86\Debug\Socket_Server.exe
+C:\Users\ASUS\OneDrive\Jason\TCP通信 - Socket - Server+Client\Socket_Server\obj\x86\Debug\Socket_Server.xml
+C:\Users\ASUS\OneDrive\Jason\TCP通信 - Socket - Server+Client\Socket_Server\obj\x86\Debug\Socket_Server.pdb
